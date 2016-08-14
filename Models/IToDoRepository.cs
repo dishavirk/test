@@ -4,7 +4,7 @@ namespace todoapp.Models
 {
     public interface IToDoRepository
     {
-        void Add(ToDoItem item);
+        void Add (ToDoItem item);
         IEnumerable<ToDoItem> GetAll();
         ToDoItem Find(string Key);
         ToDoItem Remove(string Key);
