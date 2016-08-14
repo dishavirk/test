@@ -1,8 +1,7 @@
 using System.Collections.Generic;
 
 namespace todoapp.Models
-{
-    public interface IToDoRepository
+{public interface IToDoRepository
     {
         void Add (ToDoItem item);
         IEnumerable<ToDoItem> GetAll();
