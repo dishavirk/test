@@ -1,8 +1,6 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using todoapp.Models;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
 namespace todoapp.Controllers
